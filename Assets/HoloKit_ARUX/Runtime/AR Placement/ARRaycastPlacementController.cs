@@ -19,7 +19,7 @@ public class ARRayCastController : MonoBehaviour
 
     [Header("Base")]
 
-    //public Vector3 HitPosition;
+    public Transform HitPoint;
 
     private Transform _centerEye;
 
@@ -80,7 +80,7 @@ public class ARRayCastController : MonoBehaviour
 
                     if (arPlane.alignment == PlaneAlignment.HorizontalUp && arPlane.classification == PlaneClassification.Floor)
                     {
-                        transform.position = hitResult.pose.position;
+                        HitPoint.position = hitResult.pose.position;
                         isHit = true;
                         HitEvent?.Invoke();
                         return;
@@ -88,25 +88,26 @@ public class ARRayCastController : MonoBehaviour
                 }
                 isHit = false;
                 NotHitEvent?.Invoke();
-                transform.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
+                HitPoint.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
 
             }
             else
             {
                 isHit = false;
                 NotHitEvent?.Invoke();
-                transform.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
+                HitPoint.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
             }
 #else
 
         if (HitDebugger)
         {
+            HitPoint.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
             HitEvent?.Invoke();
             HitDebugger = false;
         }
         else
         {
-            transform.position = new Vector3(0, -1, 1.5f);
+            HitPoint.position = _centerEye.position + horizontalForward.normalized * 1.5f + (transform.up * -1f);
             NotHitEvent?.Invoke();
         }
 #endif

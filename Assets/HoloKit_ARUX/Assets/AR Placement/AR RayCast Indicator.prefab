@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 8973150168816861947}
   - component: {fileID: 993519479826868775}
   - component: {fileID: 993519479826868774}
-  - component: {fileID: 4366622671930631897}
+  - component: {fileID: 2321601953848627982}
   m_Layer: 0
-  m_Name: ARRayCast Indicator
+  m_Name: AR RayCast Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,6 +213,7 @@ MonoBehaviour:
   NotHitEvent:
     m_PersistentCalls:
       m_Calls: []
+  HitPoint: {fileID: 7640194244609208076}
   isHit: 0
 --- !u!114 &993519479826868775
 MonoBehaviour:
@@ -221,7 +222,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993519479826868768}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1b03d5bce02e4d5f9a20948ed74f2b6, type: 3}
   m_Name: 
@@ -243,20 +244,20 @@ MonoBehaviour:
   m_Property:
     m_Name: Hit Position_position
   Target: {fileID: 7640194244609208076}
---- !u!114 &4366622671930631897
+--- !u!114 &2321601953848627982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993519479826868768}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 590e1d9d550104b3ca5867cc3c8ce25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _followTarget: {fileID: 0}
-  _rotateType: 0
+  _rotateType: 3
   _axisWeight: {x: 1, y: 1, z: 1}
   _offset: {x: 0, y: 0, z: 0}
 --- !u!1 &5231166937857298172

@@ -5,7 +5,7 @@ using UnityEngine.VFX;
 
 namespace Holoi.Library.ARUX
 {
-    public class RaycastPlacmentVisualController : MonoBehaviour
+    public class ARRaycastPlacmentVisualController : MonoBehaviour
     {
         [SerializeField] Texture2D _trueTexture;
         [SerializeField] Texture2D _falseTexture;
@@ -19,25 +19,6 @@ namespace Holoi.Library.ARUX
             _vfx = GetComponent<VisualEffect>();
         }
 
-        private void OnEnable()
-        {
-
-        }
-
-        private void OnDisable()
-        {
-            
-        }
-
-        void Start()
-        {
-
-        }
-
-        void Update()
-        {
-        }
-
         public void OnHit()
         {
             _vfx.SetBool("IsHit", true);
@@ -49,7 +30,7 @@ namespace Holoi.Library.ARUX
             _vfx.SetTexture("MainTex", _falseTexture);
         }
 
-        public void PlayDie()
+        public void PlayAnimationDeath()
         {
             _animator.SetTrigger("Die");
         }

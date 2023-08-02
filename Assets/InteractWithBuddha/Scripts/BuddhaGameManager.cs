@@ -6,6 +6,7 @@ namespace HoloInteractive.CourseSample.InteractWithBuddha
 {
     public class BuddhaGameManager : MonoBehaviour
     {
+        public GameObject Hand;
         // Start is called before the first frame update
         void Start()
         {

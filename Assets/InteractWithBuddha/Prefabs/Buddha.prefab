@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7626925092259308643}
   - component: {fileID: 8634908232365701829}
   - component: {fileID: 2127259401192122297}
-  - component: {fileID: 4382827330447232869}
+  - component: {fileID: 5850689206075461583}
   m_Layer: 0
   m_Name: Triangles
   m_TagString: Untagged
@@ -98,7 +98,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 1.683, y: 0.93, z: 2.038}
+      - m_Value: {x: 0, y: 0, z: 0}
         m_Name: Hand Position
         m_Overridden: 1
     m_Vector4f:
@@ -331,16 +331,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5235933355653492310}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
   m_Bindings:
-  - {fileID: 4382827330447232869}
+  - {fileID: 5850689206075461583}
   m_VisualEffect: {fileID: 8186640101611282521}
---- !u!114 &4382827330447232869
+--- !u!114 &5850689206075461583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5235933355653492310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 49225948ad0234cb0927e473061d49e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Property:
@@ -364,6 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428872412850148359}
+  - component: {fileID: 1648395709734332694}
   m_Layer: 0
   m_Name: Buddha
   m_TagString: Untagged
@@ -388,6 +389,19 @@ Transform:
   - {fileID: 3466018212611842433}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1648395709734332694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457057882774249366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c477055f1414b9b93930d51f6f54f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfx: {fileID: 8186640101611282521}
 --- !u!1 &7960990338584837331
 GameObject:
   m_ObjectHideFlags: 0

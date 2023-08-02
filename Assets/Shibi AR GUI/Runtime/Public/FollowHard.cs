@@ -79,7 +79,7 @@ namespace Holoi.Library.ARUX
             var localOffset = _followTarget.TransformVector(_offset);
             var worldOffset = offset;
 
-            return targetPosition;
+            return targetPosition + localOffset;
 
             //if (_worldSpace)
             //{

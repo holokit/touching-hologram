@@ -13,7 +13,7 @@ namespace HoloInteractive.XR.HoloKit.Samples.HandTracking
 
         private void Start()
         {
-            Screen.orientation = ScreenOrientation.LandscapeLeft;
+            //Screen.orientation = ScreenOrientation.LandscapeLeft;
         }
 
         public void SwitchRenderMode()

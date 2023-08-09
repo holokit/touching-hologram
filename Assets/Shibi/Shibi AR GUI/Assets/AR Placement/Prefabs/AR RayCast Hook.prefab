@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2321601953848627982}
   - component: {fileID: 6777040767664005325}
   m_Layer: 0
-  m_Name: AR RayCast Indicator
+  m_Name: AR RayCast Hook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

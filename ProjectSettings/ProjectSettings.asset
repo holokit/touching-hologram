@@ -485,8 +485,8 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Camera Used For AR
-  locationUsageDescription: Camera Used For AR
-  microphoneUsageDescription: Camera Used For AR
+  locationUsageDescription: Location Used For AR
+  microphoneUsageDescription: Microphone Used For AR
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0
   switchNMETAOverride: 

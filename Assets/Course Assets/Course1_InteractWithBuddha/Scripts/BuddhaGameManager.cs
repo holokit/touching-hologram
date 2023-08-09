@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HoloInteractive.CourseSample.InteractWithBuddha
 {
-    public class BuddhaGameManager : MonoBehaviour
+    public class BuddhaSceneManager : MonoBehaviour
     {
         public GameObject Hand;
         // Start is called before the first frame update

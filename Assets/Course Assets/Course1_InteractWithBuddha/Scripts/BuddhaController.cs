@@ -13,7 +13,7 @@ namespace HoloInteractive.CourseSample.InteractWithBuddha
         // Start is called before the first frame update
         void Start()
         {
-            var hand = FindObjectOfType<BuddhaGameManager>().Hand;
+            var hand = FindObjectOfType<BuddhaSceneManager>().Hand;
             if (!hand)
             {
                 Debug.Log("No HandObject Assigned!");

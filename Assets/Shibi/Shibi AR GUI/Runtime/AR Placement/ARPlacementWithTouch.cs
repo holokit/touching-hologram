@@ -18,7 +18,7 @@ public class ARPlacementWithTouch : MonoBehaviour
     [SerializeField]
     UnityEvent placementEvent;
     [SerializeField]
-    Vector3 InitPosition;
+    Vector3 InitPosition =new Vector3(0,-1,1);
 
     void Start()
     {

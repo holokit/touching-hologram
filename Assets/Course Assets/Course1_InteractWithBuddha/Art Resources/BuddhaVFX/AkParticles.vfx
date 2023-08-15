@@ -338,10 +338,10 @@ MonoBehaviour:
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: -1335
+    x: -1310
     y: -101
-    width: 3204
-    height: 3657
+    width: 3179
+    height: 3690
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2907,7 +2907,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614691}
   m_ExposedName: ColorMap
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 5
   m_Category: 
   m_Min:
     m_Type:
@@ -3389,7 +3389,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614817}
   m_ExposedName: Max Depth
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 7
   m_Category: 
   m_Min:
     m_Type:
@@ -11388,7 +11388,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615454}
   m_ExposedName: Alpha
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 6
   m_Category: Base
   m_Min:
     m_Type:
@@ -14401,7 +14401,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615547}
   m_ExposedName: Hand Position
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 8
   m_Category: 
   m_Min:
     m_Type:
@@ -14963,7 +14963,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615563}
   m_ExposedName: Process
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: Base
   m_Min:
     m_Type:
@@ -15035,7 +15035,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615565}
   m_ExposedName: Interactable
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Base
   m_Min:
     m_Type:
@@ -15416,7 +15416,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615579}
   m_ExposedName: Brightness
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Base
   m_Min:
     m_Type:
@@ -15496,7 +15496,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615584}
   m_ExposedName: Interaction Radius
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: Base
   m_Min:
     m_Type:

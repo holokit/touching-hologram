@@ -9,15 +9,15 @@ using HoloInteractive.XR.HoloKit;
 public class ARPlacementWithTouch : MonoBehaviour
 {
     public GameObject SpawnedPrefab;
-    public GameObject placementIndicator;
+    public GameObject indicatorPrefab;
 
     private GameObject spawnedInstance;
+    private GameObject indicatorInstance;
     private Pose PlacementPose;
     private ARRaycastManager aRRaycastManager;
     private bool placementPoseIsValid = false;
     [SerializeField]
     UnityEvent placementEvent;
-    [SerializeField]
     Vector3 InitPosition =new Vector3(0,-1,1);
 
     void Start()
@@ -40,7 +40,7 @@ public class ARPlacementWithTouch : MonoBehaviour
         else
         {
             UpdatePlacementPose();
-            if (placementIndicator) UpdatePlacementIndicator();
+            if (indicatorPrefab) UpdatePlacementIndicator();
 
             if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
@@ -53,12 +53,17 @@ public class ARPlacementWithTouch : MonoBehaviour
     {
         if (spawnedInstance == null && placementPoseIsValid)
         {
-            placementIndicator.SetActive(true);
-            placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+            if (indicatorInstance == null)
+            {
+                indicatorInstance = Instantiate(indicatorPrefab);
+                indicatorInstance.transform.position = new Vector3(0, -1, 1);
+            }
+            indicatorInstance.SetActive(true);
+            indicatorInstance.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
         }
         else
         {
-            placementIndicator.SetActive(false);
+            indicatorInstance.SetActive(false);
         }
     }
 

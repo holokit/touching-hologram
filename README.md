@@ -24,9 +24,9 @@ I built this project to iPhone with Xcode 14.2.
 
 # How to try it
 1. Clone the project.
-2. Open with Unity.
+2. Open the project with Unity.
 3. Open Scene in path: Assets->Scene->Buddha_PlacingWithTouch
-4. File -> Build Settings -> Build, to build this scene to an Xcode project.
+4. Build to an Xcode project, go to: File -> Build Settings -> Build, to build this scene to an Xcode project.
 5. Open Xcode, open the Xcode project you built.
 6. Click build button to build Xcode project to your device.
 

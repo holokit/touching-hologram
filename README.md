@@ -23,6 +23,12 @@ https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction
 
 --
 
+<video controls width="250">
+  <source src="https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4" type="video/mp4" />
+</video>
+
+--
+
 <video width="320" height="240" controls>
     <source src="https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4" type="video/mp4">
 </video>

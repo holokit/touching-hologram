@@ -38,12 +38,11 @@ This project utilizes the HoloKit SDK and aims to build an app that runs on iOS 
 
 ### Build App to your device
 
-1. Clone the project
-2. Open the project with Unity
-3. Open Scene in path: Assets->Scene->Buddha_PlacingWithTouch
-4. Build to an Xcode project, go to: File -> Build Settings -> Build, to build this scene to an Xcode project
-5. Open Xcode, then open the project
-6. Click build button to build app to your device
+1. Clone the project, open with Unity
+2. Open scene in path: Assets->Scene->Buddha_PlacingWithTouch
+3. Build to an Xcode project, go to: File -> Build Settings -> Build, to build this scene to an Xcode project
+4. Open Xcode, then open the project
+5. Click build button to build app to your device
 
 ### Play
 

@@ -11,29 +11,13 @@ After building this project as an iPhone app, tap on screen to place a particle-
 
 Utilizing the hand-tracking feature from the HoloKit SDK, this enables players to interact with the Buddha using their hands.
 
-<video>
-    <source src="https://youtu.be/spD09_W6lPg" type="video/mp4">
-</video>
+https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/placement.mp4
 
 
 Additionally, the app offers stereo rendering options for an enhanced mixed reality experience using HoloKit hardware.
 
 https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4
 
---
-<video src='https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4' />
-
---
-
-<video controls width="250">
-  <source src="https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4" type="video/mp4" />
-</video>
-
---
-
-<video width="320" height="240" controls>
-    <source src="https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4" type="video/mp4">
-</video>
 
 ## About HoloKit Tutorial
 

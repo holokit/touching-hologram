@@ -6,7 +6,7 @@ This project is the engineering part of the [first lesson of the HoloKit tutoria
 
 After building this project as an iPhone app, tap on screen to place a particle-style Buddha on any surface.
 
-![Example Image](https://raw.githubusercontent.com/holoi/mofo/blob/main/Assets/Documents/Images/stereo-rendering-mode.jpeg)
+![Example Image](https://github.com/holoi/mofo/blob/main/Assets/Documents/Images/stereo-rendering-mode.jpeg)
 
 
 Utilizing the hand-tracking feature from the HoloKit SDK, this enables players to interact with the Buddha using their hands.

@@ -19,6 +19,10 @@ Utilizing the hand-tracking feature from the HoloKit SDK, this enables players t
 
 Additionally, the app offers stereo rendering options for an enhanced mixed reality experience using HoloKit hardware.
 
+https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4
+
+--
+
 <video width="320" height="240" controls>
     <source src="https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4" type="video/mp4">
 </video>

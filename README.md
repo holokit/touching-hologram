@@ -4,7 +4,9 @@ This project is the engineering part of the [first lesson of the HoloKit tutoria
 
 ## What is Mofo
 
-After building this project as an iPhone app, tap on screen to place a particle-style Buddha on any surface.
+Mofo is an augmented reality experience and one of the case studies in the HoloKit tutorial. It enables users to create a particle-style Buddha at any location, triggering interactive effects with hand gestures. Leveraging the HoloKit SDK, this experience supports stereo rendering, allowing users to enhance their experience with the accompanying HoloKit hardware.
+
+After building this project as an iPhone app, first, scan surfaces(floor) around your, tap on screen to place a particle-style Buddha.
 
 https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/placement.mp4
 

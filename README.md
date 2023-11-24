@@ -16,7 +16,7 @@ https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction
 
 Additionally, the app offers stereo rendering options for an enhanced mixed reality experience using HoloKit hardware.
 
-![Example Image](https://github.com/holoi/mofo/blob/main/Assets/Documents/Images/stereo-rendering-mode.jpeg)
+![Example Image](https://github.com/holoi/mofo/blob/main/Documents/Images/stereo-rendering-mode.jpeg)
 
 ## About HoloKit Tutorial
 

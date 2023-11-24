@@ -12,7 +12,7 @@ After building this project as an iPhone app, first, scan surfaces(floor) around
 
 Utilizing the hand-tracking feature from the HoloKit SDK, this enables players to interact with the Buddha using their hands.
 
-https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/hand-interaction.mp4
+![Example Image](https://github.com/holoi/mofo/blob/main/Documents/Images/hand-interaction.avif)
 
 Additionally, the app offers stereo rendering options for an enhanced mixed reality experience using HoloKit hardware.
 

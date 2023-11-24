@@ -8,7 +8,7 @@ Mofo is an augmented reality experience and one of the case studies in the HoloK
 
 After building this project as an iPhone app, first, scan surfaces(floor) around your, tap on screen to place a particle-style Buddha.
 
-https://github.com/holoi/mofo/blob/main/Assets/Documents/Videos/placement.mp4
+![Example Image](https://github.com/holoi/mofo/blob/main/Documents/Images/placement.avif)
 
 Utilizing the hand-tracking feature from the HoloKit SDK, this enables players to interact with the Buddha using their hands.
 
